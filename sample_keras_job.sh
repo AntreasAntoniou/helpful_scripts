@@ -6,5 +6,5 @@ export LD_LIBRARY_PATH=${CUDA_HOME}/lib64:${CUDNN_HOME}/lib64:${CUDNN_HOME}/incl
 export PATH=${CUDA_HOME}/bin:${PATH}
 export PATH="/home/s1473470/keras":${PATH}
 export PYTHON_PATH=$PATH
-source /home/s1473470/anaconda2/envs/deeplearning/bin/activate
+source /home/s1473470/anaconda2/envs/deeplearning/bin/activate deeplearning
 THEANO_FLAGS=mode=FAST_RUN,device=gpu1,floatX=float32 python keras/examples/cifar10_cnn.py
