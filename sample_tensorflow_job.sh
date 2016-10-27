@@ -6,7 +6,7 @@ export LD_LIBRARY_PATH=${CUDA_HOME}/lib64:${CUDNN_HOME}/lib64:${CUDNN_HOME}/incl
 export PATH=${CUDA_HOME}/bin:${PATH}
 export PATH="/home/s1473470/keras":${PATH}
 export PYTHON_PATH=$PATH
-source /home/s1473470/anaconda2/envs/deeplearning/bin/activate
+source /home/s1473470/anaconda2/envs/deeplearning/bin/activate deeplearning
 #source ./anaconda2/envs/deeplearning/bin/activate
 python tensorflow_example.py
 python /home/s1473470/TensorFlow-Examples/examples/3_NeuralNetworks/convolutional_network.py
